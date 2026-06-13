@@ -1,0 +1,54 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: inherit;
+    display: grid;
+    grid-template-areas:
+        "topbar topbar topbar"
+        "ads content sidebar"
+        "footer footer footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 50px auto 70px;
+    gap: 0 2em;
+}
+
+header {
+    grid-area: topbar;
+    background-color: lightblue;
+    align-content: center;
+    text-align: center;
+}
+
+article {
+    grid-area: content;
+    background-color: lightcoral;
+    align-content: center;
+    text-align: center;
+}
+
+aside {
+    grid-area: ads;
+    background-color: lightgreen;
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    grid-area: sidebar;
+    background-color: lightgoldenrodyellow;
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightpink;
+    align-content: center;
+    text-align: center;
+}

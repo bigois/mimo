@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+
+body {
+    font-family: "Courrier Prime", monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        border: 2px solid black;
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+hr {
+    margin-top: 35px;
+    width: 70%;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+#habilidades-pipinho {
+    display: flex;
+    flex-direction: column;
+}
+
+details {
+    width: 30%;
+    border: 2px dashed black;
+    padding: 5px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}

@@ -1,0 +1,31 @@
+img {
+    float: left;
+    padding-left: 15px;
+    padding-right: 20px;
+    /* position: absolute; */
+    /* right: 0; */
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+span {
+    position: relative;
+}
+
+.span1 {
+    top: 0px;
+}
+
+.span2 {
+    top: 10px;
+}
+
+.span3 {
+    top: 20px;
+}
+
+.span4 {
+    top: 30px;
+}

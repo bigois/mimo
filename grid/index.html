@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang=pt-br>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSS3 | Grid System</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div>
+                <h1>Grid System</h1>
+                <p>O CSS Grid Layout é um sistema de layout bidimensional para a web que permite criar layouts complexos
+                    de
+                    forma simples e eficiente. Ele divide o espaço disponível em linhas e colunas, permitindo que os
+                    elementos sejam posicionados em qualquer lugar dentro dessa grade.</p>
+                <h2>Exemplos</h2>
+                <div class="grid-container">
+                    <div>
+                        <h3>Com grid</h3>
+                        <code>
+                            .container {
+                            display: grid;
+                            grid-template-columns: repeat(3, 1fr);
+                            gap: 10px;
+                            }
+                        </code>
+                    </div>
+                    <div>
+                        <h3>Sem grid</h3>
+                        <code>
+                            .container {
+                            display: block;
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Flex System</h1>
+                <p>O Flexbox (Flexible Box Layout) é um modelo de layout unidimensional que facilita a distribuição de
+                    espaço entre os itens em um contêiner, mesmo quando seu tamanho é desconhecido ou dinâmico. Ele é
+                    especialmente útil para layouts responsivos e alinhamento de itens em uma única direção, seja em
+                    linha
+                    (horizontal) ou em coluna (vertical).</p>
+                <h2>Exemplos</h2>
+                <div class="grid-container">
+                    <div>
+                        <h3>Com flex</h3>
+                        <code>
+                            .container {
+                            display: flex;
+                            justify-content: space-between;
+                            }
+                        </code>
+                    </div>
+                    <div>
+                        <h3>Sem flex</h3>
+                        <code>
+                            .container {
+                            display: block;
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div>
+            <h1 class="centered-text">Sudoku</h1>
+            <div class="centered-content">
+                <div class="sudoku-container">
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">7</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">7</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">7</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">7</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">2</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">2</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">2</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">2</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                    <div class="sudoku-grid">
+                        <div class="sudoku-cell">5</div>
+                        <div class="sudoku-cell">3</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell">2</div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                        <div class="sudoku-cell empty"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>How promises work?</title>
+    </head>
+        <button onclick="callPromiseWithAwait()">Promise with await()</button>
+        <button onclick="callPromiseWithThen()">Promise with .then()</button>
+        <button onclick="callPromiseWithThenAndCatch()">Promise with .then() and .catch()</button>
+        <button onclick="callPromiseWithFinally()">Promise with .finally()</button>
+        <button onclick="callPromiseAllSuccess()">Promise.all() only resolve</button>
+        <button onclick="callPromiseAllFailure()">Promise.all() with reject</button>
+        <button onclick="callPromiseAllSettled()">Promise.allSettled()</button>
+        <button onclick="callPromiseRace()">Promise.race()</button>
+        <script src="script.js"></script>
+    </body>
+</html>

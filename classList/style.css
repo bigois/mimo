@@ -1,0 +1,16 @@
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.code {
+    font-family: monospace;
+    font-size: 1.5em;
+}

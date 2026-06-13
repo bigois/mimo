@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm run dev",
+            "name": "npm: dev",
+            "request": "launch",
+            "type": "node-terminal",
+            "serverReadyAction": {
+                "pattern": "Local:\\s+(https?://\\S+)",
+                "action": "debugWithChrome"
+            }
+        }
+    ]
+}
