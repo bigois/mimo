@@ -1,0 +1,25 @@
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+body {
+    padding: 15px;
+    background: #0000ff;
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Distribute space between children */
+    gap: 15px; /* Add space between children */
+}
+
+p {
+    padding: 15px;
+    background: #ff0000;
+    border: 5px solid #ffffff;
+}
+
+span {
+    background: #ffff01;
+}
