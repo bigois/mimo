@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yuyu+Short&display=swap');
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 64px;
+}
+
+p {
+    font-family: "Yuyu Short", sans-serif;
+    font-size: 32px;
+}
