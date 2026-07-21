@@ -1,0 +1,31 @@
+/* :root is a pseudo-class that matches the document's root element */
+:root {
+    /* Double hyphen is required for CSS custom properties (variables) */
+    --primary-color-light: lightblue;
+    --secondary-color-light: lightgreen;
+    --primary-color-dark: darkblue;
+    --secondary-color-dark: darkgreen;
+    --text-color-light: black;
+    --text-color-dark: white;
+
+    /* Default theme colors */
+    --primary-color: var(--primary-color-light);
+    --secondary-color: var(--secondary-color-light);
+    --text-color: var(--text-color-light);
+}
+
+[data-my-custom-theme-attribute="dark"] {
+    --primary-color: var(--primary-color-dark);
+    --secondary-color: var(--secondary-color-dark);
+    --text-color: var(--text-color-dark);
+}
+
+h1 {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+p {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
