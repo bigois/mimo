@@ -1,0 +1,23 @@
+body {
+    padding: 20px;
+}
+
+/* Adds space for showing the list markers removed by the reset */
+ul {
+    padding-left: 40px;
+}
+
+/* Shows circle markers for each list item */
+li {
+    list-style-type: circle;
+}
+
+.item-with-rem {
+    /* font-size: 16px; */
+    font-size: 1rem;
+}
+
+.item-without-rem {
+    /* font-size: 1rem; */
+    font-size: 16px;
+}
