@@ -1,5 +1,3 @@
-import './styles.css';
-
 const LocationInfo = ({ title, location }) => {
     const { pathname, search, state } = location;
     const params = new URLSearchParams(search);

@@ -1,6 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import LocationInfo from '../LocationInfo';
-import './styles.css';
 
 const Home = () => {
     const location = useLocation();

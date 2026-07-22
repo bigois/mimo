@@ -1,5 +1,4 @@
 import Pokemon from "../Pokemon/Pokemon.jsx";
-import "./PokemonList.css";
 
 const PokemonList = ({ pokemonList }) => {
     return (

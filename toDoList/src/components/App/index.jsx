@@ -21,7 +21,6 @@ import {
     ThemeProvider,
     CssBaseline, Modal
 } from '@mui/material';
-import './app.css';
 import React from 'react';
 
 const darkTheme = createTheme({

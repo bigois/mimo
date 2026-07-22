@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import PokemonList from "../PokemonList/PokemonList.jsx";
-import "./App.css";
 
 const App = () => {
     const [isLoading, setIsLoading] = useState(true);

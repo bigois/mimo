@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import { About, Contact, Home } from '../BasicComponents';
-import './styles.css';
 
 const App = () => {
     return (
