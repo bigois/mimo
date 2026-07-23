@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <main class="main-container">
+            <header class="page-header">
+                <h1>Audio Piano</h1>
+                <audio id="audio" controls src="./sounds/piano-slide.m4a"></audio>
+                <p>Click on the buttons below to play the corresponding notes:</p>
+            </header>
+            <div class="piano-keys-container">
+                <button class="piano-keys" id="DO1" onclick="playNote(Notes.DO1)">
+                    <span class="piano-key-name">Dó</span>
+                </button>
+                <button class="piano-keys" id="RE1" onclick="playNote(Notes.RE1)">
+                    <span class="piano-key-name">Ré</span>
+                </button>
+                <button class="piano-keys" id="MI1" onclick="playNote(Notes.MI1)">
+                    <span class="piano-key-name">Mi</span>
+                </button>
+                <button class="piano-keys" id="FA1" onclick="playNote(Notes.FA1)">
+                    <span class="piano-key-name">Fá</span>
+                </button>
+                <button class="piano-keys" id="SOL1" onclick="playNote(Notes.SOL1)">
+                    <span class="piano-key-name">Sol</span>
+                </button>
+                <button class="piano-keys" id="LA1" onclick="playNote(Notes.LA1)">
+                    <span class="piano-key-name">Lá</span>
+                </button>
+                <button class="piano-keys" id="SI1" onclick="playNote(Notes.SI1)">
+                    <span class="piano-key-name">Si</span>
+                </button>
+                <button class="piano-keys" id="DO2" onclick="playNote(Notes.DO2)">
+                    <span class="piano-key-name">Dó</span>
+                </button>
+            </div>
+        </main>
+        <script src="./script.js"></script>
+    </body>
+</html>
